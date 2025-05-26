@@ -1,4 +1,5 @@
 💸 Personal Expense Tracker
+
 A simple and interactive Expense Tracker built using HTML, CSS, and JavaScript. Easily track your daily expenses, sort them based on different criteria, and manage your finances in a clean and minimal interface.
 
 ✨ Features
