@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>💸 Expense Tracker</h1>
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+            <option value="newest">Newest First</option>
+            <option value="oldest">Oldest First</option>
+            <option value="amount-asc">Amount: Low to High</option>
+            <option value="amount-desc">Amount: High to Low</option>
+        </select>
+
+        <form id="expense-form">
+            <input type="text" id="name" placeholder="Expense name" required />
+            <input type="number" id="amount" placeholder="Amount" required />
+            <button type="submit">Add Expense</button>
+        </form>
+
+        <div id="expense-list"></div>
+
+        <div class="total">
+            Total: ₹<span id="total-amount">0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
